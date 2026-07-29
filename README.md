@@ -1,6 +1,6 @@
 # S2S6 ANS Gaps
 
-Interactive React demo of **Zeckendorf / Tribonacci gap encoding** plus **ANS (Asymmetric Numeral Systems)** entropy coding.
+Interactive demo of **Zeckendorf / Tribonacci gap encoding** plus **ANS (Asymmetric Numeral Systems)** entropy coding.
 
 ## Idea
 
@@ -18,8 +18,15 @@ At M = 10,000:
 
 Open [`s2s6_ans_gaps.html`](./s2s6_ans_gaps.html) in a browser (self-contained, no build step).
 
+Or view via GitHub Pages once enabled: raw file works offline too.
+
 ## Pipeline
 
 ```
 N → Zeckendorf positions → gaps (≥2) → rANS over gap frequencies
 ```
+
+## Repo notes
+
+- Public under `ceedot-rock/s2s6-ans-gaps`
+- Standalone HTML (no React bundle); same math and benchmark numbers as the original S2S6 artifact
